@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "klongchu\\src\\Budhosp\\": "Klongchu/src/Budhosp"
+            "klongchu\\Budhosp\\": "src/"
         }
     }
 }
