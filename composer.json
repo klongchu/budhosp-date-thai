@@ -2,7 +2,7 @@
     "name": "klongchu/budhosp-date-thai",
     "description": "BUDHOSP Thai Date",
     "type": "library",
-    "license": "BUDHOSP",
+    "license": "MIT",
     "authors": [{
         "name": "Klongchu Dev",
         "email": "klongchu@gmail.com"
