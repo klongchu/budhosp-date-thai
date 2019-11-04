@@ -1,4 +1,12 @@
 <?php
+/**
+ *
+ * @package BUDHOSPThaidate
+ * @version 1.0.0
+ * @author Klongchu Dev.
+ * @license http://opensource.org/licenses/MIT
+ *
+ */
 
 namespace Klongchu\Budhosp;
 
