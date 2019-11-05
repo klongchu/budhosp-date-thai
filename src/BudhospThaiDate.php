@@ -8,29 +8,29 @@
  *
  */
 
-namespace Klongchu\Budhosp;
+namespace Klongchu;
 
 class Budhosp
 {
-    public function ThaiDate($strDate)
+    public function ThaiDate($date)
     {
-        $strYear = date("Y", strtotime($strDate)) + 543;
-        $strMonth = date("n", strtotime($strDate));
-        $strDay = date("j", strtotime($strDate));
-        $strMonthCut = ["", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
-        $strMonthThai = $strMonthCut[$strMonth];
-        return "$strDay $strMonthThai $strYear";
+        $year = date("Y", strtotime($date)) + 543;
+        $month = date("n", strtotime($date));
+        $day = date("j", strtotime($date));
+        $monthCut = ["", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
+        $monthThai = $monthCut[$month];
+        return "$day $monthThai $year";
     }
 
-    public function ThaiDateTime($strDate)
+    public function ThaiDateTime($date)
     {
-        $strYear = date("Y", strtotime($strDate)) + 543;
-        $strMonth = date("n", strtotime($strDate));
-        $strDay = date("j", strtotime($strDate));
-        $strHour = date("H", strtotime($strDate));
-        $strMinute = date("i", strtotime($strDate));
-        $strMonthCut = ["", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
-        $strMonthThai = $strMonthCut[$strMonth];
-        return "$strDay $strMonthThai $strYear $strHour:$strMinute";
+        $year = date("Y", strtotime($date)) + 543;
+        $month = date("n", strtotime($date));
+        $day = date("j", strtotime($date));
+        $Hour = date("H", strtotime($date));
+        $Minute = date("i", strtotime($date));
+        $monthCut = ["", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."];
+        $monthThai = $monthCut[$month];
+        return "$day $monthThai $year $Hour:$Minute";
     }
 }
