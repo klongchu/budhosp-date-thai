@@ -14,7 +14,6 @@
     "autoload": {
         "psr-4": {
             "Klongchu\\Budhosp\\": "src"
-        },
-        "files": ["klongchu/src/BudhospThaiDate.php"]
+        }
     }
 }
