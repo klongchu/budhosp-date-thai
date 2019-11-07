@@ -8,7 +8,7 @@
  *
  */
 
-namespace Klongchu;
+namespace Klongchu\Budhosp;
 
 class Budhosp
 {
